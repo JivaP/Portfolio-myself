@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,  // ✅ only emits .d.ts files
+    "noEmit": false                // ✅ must allow emit
+  },
+  "include": ["vite.config.ts"]
+}
