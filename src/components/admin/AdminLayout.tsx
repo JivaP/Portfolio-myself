@@ -225,7 +225,7 @@ import {
 import {
   LayoutDashboard,
   FolderOpen,
-  FileText,
+  // FileText,
   Mail,
   Settings,
   LogOut,
